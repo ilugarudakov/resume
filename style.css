@@ -1,0 +1,80 @@
+#container{
+   margin:100px;
+   }
+   
+   #header{
+	/*background: #eee;*/
+	padding: 50px;
+   }
+   
+   #content{
+	/*background: #ddd;*/
+	margin: 0px;
+    text-shadow: 2px 1px 1px #3A24FF;
+   }
+   
+   #footer{
+     /* background: #aaa;*/
+	  text-align:center;
+	  font-family: Verdana, Arial, Helvetica, sans-serif; 
+-moz-transform: scale(2) rotate(4deg) translateX(4px) translateY(18px) skewX(4deg) skewY(4deg);
+-webkit-transform: scale(2) rotate(4deg) translateX(4px) translateY(18px) skewX(4deg) skewY(4deg);
+-o-transform: scale(2) rotate(4deg) translateX(4px) translateY(18px) skewX(4deg) skewY(4deg);
+-ms-transform: scale(2) rotate(4deg) translateX(4px) translateY(18px) skewX(4deg) skewY(4deg);
+transform: scale(2) rotate(4deg) translateX(4px) translateY(18px) skewX(4deg) skewY(4deg);
+   }
+   /*----------------------------------------------*/
+    h1{
+	text-align: center;
+	
+	font-size: 180%; 
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   color: #333366;
+    }
+   
+   span { 
+      
+    font-size: 100%; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: green; 
+	padding-left: 50px;
+   }
+   
+   span > img {
+   height:20px; 
+   width:20px;
+   }
+      
+   table{
+   font: 18px "Trebuchet MS", "Lucida Sans";
+   color: #444466;
+	/* border-spacing: 50px;*/
+   }
+  
+   td:first-child{
+   font-weight: bold;
+   color: black;
+   width: 15%;
+   }
+   ul{
+   /*list-style: url("img/galka.png")*/
+   list-style-type: square;
+     }
+	li {
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+   li:before {
+    color: green; /* Цвет маркера */
+    content: "-"; /* Сам маркер */
+    padding-right: 10px; /* Расстояние от маркера до текста */
+	}
+	li > ul >li{
+	list-style: url("img/galka.png");
+	}
+	li > ul >li:before{
+	content: none;
+	}
+	#photo{
+	float: left;
+	
+	}

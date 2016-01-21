@@ -12,7 +12,16 @@
 
 <script>
 	alert("Добро пожаловать!");
+	
+	window.onload = function(){
+		document.getElementById('content').onclick = "hello";
+	}
+	
 </script>
+
+
+
+
 
 <div id='container'>
 
@@ -27,7 +36,20 @@
 	<span> <img src='img/mailicon.png' alt='мэйл'> ilugarudakov@gmail.com </span><br>
 	<span> <img src='img/dr.png' alt='д.р.'> Дата рождения: 20.08.1984 </span><br>
 	<span> <img src='img/ring.png' alt='семья'>	Женат, есть сын 5 лет. </span><br>
+	<span> <a href="#openModal">Дополнительная информация</a></span><br>
+
+
+<div id="openModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Закрыть" class="close">X</a>
+        <h2></h2>
+        <p>на сегодняшний день прохожу стажировку в <br> <a href="http://www.bravopap.com.ua/"> "Бравопап" - товары для офиса  </a> <br>
+        с перспективой дальнейшего трудоустройства</p>
+    </div>
 </div>
+</div>
+
+
 
 <div id='content'>
 <table>
